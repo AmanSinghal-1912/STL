@@ -1,0 +1,78 @@
+VECTORS::::
+- Dynamic Array which doubles its size whenever it is filled completely and we try to add next element...
+
+- Vector is not always pass by reference like arrays...
+- 
+
+SYNTAX::
+- vector <dtype> name; 
+
+OPERATIONS::
+- .size() -> no of elements...
+- v.at(2) / v[2] -> element at index 2 
+- .push_back(4) -> inserting elements 
+- .pop_back() -> deleting last element 
+- .begin() -> points at start 
+- .end() -> points at end  
+- .erase(itr) -> deletes that element 
+- find(v.begin(),v.end(),value) -> gives an iterator pointing at value else v.end() 
+- .empty() -> true/false 
+- .front() -> front element 
+- .back() -> last element 
+- .resize(4,9) -> resized to 4 elements...if any space is empty it puts 9...
+- reverse(v.begin(),v.end()) -> reverses a vector 
+- find(v.begin(),v.end(),element) -> returns an itr pointing at that element 
+- unique(v.begin(),v.end()) -> removes all duplicates...
+
+2D VECTORS::::::
+vector<vector<int>>v;
+vector<vector<int>> v (5,vector<int>(10,0))
+vector<vector<int>> name (no of rows ,vector<int>(10elements , 0))
+- vector of (vector of integers)...namely v....
+_ 10
+_ 10
+_ 10
+SUPPOZZZ...
+3 elements are there in a vector...
+each element is a vector...
+TOTAL = 3 ROW + 10 COLS ka array
+
+5 = no of elements in intial vector
+usko initialize karo....
+vector of 10 elements having 0 stored in it...
+
+vector<vector<int>> v (5,vector<int>(10,0))
+for(int r=0;r<v.size();r++)
+{
+  for(int c=0;c<v[r].size();c++)
+  {
+    .................
+  }
+}
+
+JAGGED ARRAY::::
+vector of vectors...
+inner vectors not having equal no of elements...
+
+  vector<vector<int>>v1;
+
+  vector<int>a(3,0);
+  vector<int>b(4,0);
+  vector<int>c(1,0);
+  vector<int>d(7,0);
+  vector<int>e(2,0);
+
+  v1.push_back(a);
+  v1.push_back(b);
+  v1.push_back(c);
+  v1.push_back(d);
+  v1.push_back(e);
+  
+  for(int r=0;r<v1.size();r++)
+  {
+    for(int c=0;c<v1[r].size();c++)
+    {
+      cout<<v1[r][c]<<" ";
+    }
+    cout<<endl;
+  }
