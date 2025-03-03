@@ -1,0 +1,23 @@
+LISTS::::
+- Implements a doubly linked list with each element has address of previous and next element in list...
+- Non-contiguous memory...
+- Fast insertion and deletion...
+
+SYNTAX::
+- list <dtype> name; 
+
+COMPLEXITIES:: 
+- Insert at back	            O(1)
+- Insert at front	            O(1)
+- Insert at arbitrary position when the iterator is known.        O(1)
+- Insert at arbitrary position when the iterator is unknown.      O(n)
+- Remove from back          	O(1)
+- Remove from front	            O(1)
+- Remove from arbitrary position when the iterator is known.      O(1)
+- Remove from arbitrary position when the iterator is unknown.    O(n)
+- Access first element.	        O(1)
+- Access last element	        O(1)
+- Access element at any position	          O(n)
+- Find element by value	        O(n)
+- Traversing the list           O(n) 
+
