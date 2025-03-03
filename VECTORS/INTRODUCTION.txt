@@ -1,8 +1,6 @@
 VECTORS::::
 - Dynamic Array which doubles its size whenever it is filled completely and we try to add next element...
-
 - Vector is not always pass by reference like arrays...
-- 
 
 SYNTAX::
 - vector <dtype> name; 
