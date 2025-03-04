@@ -1,0 +1,17 @@
+QUEUE:::
+- FIFO -> First in First out rule is followed...
+- Elements that are inserted first will be removed first...
+- Inserting elements from one end -> back
+- Deleting elements from other end -> front 
+- #include<queue> is required...
+
+SYNTAX::
+- queue <dtype> name; 
+
+COMPLEXITIES::
+- Insert an element	    O(1)
+- Delete an element	    O(1)
+- Access front element  O(1)
+- Access back element	O(1)
+- Traverse the queue	O(n)  
+
