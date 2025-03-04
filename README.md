@@ -129,5 +129,4 @@ q.pop();
 
 STL provides efficient implementations for various data structures, making C++ programming easier and more optimized.
 
-ok
 
