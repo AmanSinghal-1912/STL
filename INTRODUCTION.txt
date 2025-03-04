@@ -36,12 +36,4 @@ ALGORITHMS::
 - 2 TYPES-:
   -> MANIPULATIVE - modifies elements of containers...like copy, replace, swap, reverse etc. 
   -> NON-MANIPULATIVE - doesnt modify elements...like sum, accumulate, count, find etc. 
-
-
-
-
-
-
-
-
- 
+  
